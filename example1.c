@@ -122,10 +122,10 @@ int main()
     int nrv;
     int edg_nr;
 
-    printf("cate noduri are girafa?");
+    printf("cate noduri are graful?");
     scanf("%d", &nrv);
 
-    printf("cate muchii are giraful?");
+    printf("cate muchii are graful?");
     scanf("%d", &edg_nr);
 
     GPH *g = create_g(nrv);
